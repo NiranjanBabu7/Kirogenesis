@@ -1,0 +1,12 @@
+{
+  "namingConventions": {
+    "apiEndpoints": "snake_case",
+    "frontendComponents": "PascalCase",
+    "databaseTables": "snake_case"
+  },
+  "folderStructure": "modular",
+  "codeStyle": {
+    "indent": 2,
+    "quotes": "single"
+  }
+}

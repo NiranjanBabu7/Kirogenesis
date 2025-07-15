@@ -1,0 +1,13 @@
+name: Frontend Dashboard
+type: frontend
+description: React dashboard for user management and billing
+pages:
+  - path: /
+    component: Dashboard
+  - path: /billing
+    component: BillingForm
+integrations:
+  - Stripe Checkout
+tests:
+  - test_dashboard_render
+  - test_billing_form_submit

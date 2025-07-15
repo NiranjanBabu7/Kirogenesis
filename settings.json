@@ -1,0 +1,7 @@
+{
+  "python.pythonPath": "venv/bin/python", // or "venv\\Scripts\\python.exe" for Windows
+  "python.analysis.extraPaths": [
+    "./backend"
+  ],
+  "editor.formatOnSave": true
+}

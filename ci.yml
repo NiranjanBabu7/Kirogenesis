@@ -1,0 +1,9 @@
+name: CI Pipeline
+type: ci
+description: GitHub Actions pipeline for linting, testing, and build
+steps:
+  - checkout
+  - setup-python
+  - install-deps
+  - run-tests
+  - build-docker
